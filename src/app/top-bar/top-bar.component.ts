@@ -7,7 +7,7 @@ import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
 })
 export class TopBarComponent implements OnInit {
 
-  @ViewChild('myNav', { static: false }) myNav: ElementRef;
+  @ViewChild('myNav') myNav: ElementRef;
 
   constructor() { }
 

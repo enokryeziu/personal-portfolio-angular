@@ -1,4 +1,4 @@
-import { Component, OnInit, HostListener, ElementRef, Inject, ViewChild, Renderer } from '@angular/core';
+import { Component, OnInit, HostListener, ElementRef, Inject, ViewChild, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-projects',
@@ -9,7 +9,7 @@ export class ProjectsComponent implements OnInit {
 
   expand=false;
   elementRef: ElementRef;
-  @ViewChild('myname', {static: false}) myname:any; 
+  @ViewChild('myname') myname:any; 
   tmpListener: any;
   drop = false;
   mobile;
@@ -24,7 +24,7 @@ export class ProjectsComponent implements OnInit {
   };
   
 
-  constructor(@Inject(ElementRef) elementRef: ElementRef,private renderer: Renderer) { 
+  constructor(@Inject(ElementRef) elementRef: ElementRef,private renderer: Renderer2) { 
     this.elementRef = elementRef;
     
   }
