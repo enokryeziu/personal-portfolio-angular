@@ -1,0 +1,45 @@
+h3 {
+    margin: 60px 0;
+    color: #000000;
+}
+.btnDropdown {
+    color: white;
+    background: #242629;
+    padding: 6px;
+    border-radius: 50%;
+    font-size: .5em;
+    vertical-align: middle;
+    margin-right: 10px;
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    
+}
+
+@media screen and (max-width: 479px) {
+    .btnDropdown {
+        display: inline;
+    }
+    th{
+        display: none;
+    }
+    td {
+        display:  block;
+    }
+    td:not(:nth-child(1)) {
+        border: none;
+        display: none;
+    }
+    .expend {
+        display: inline;
+    }
+    .showElem {
+        display: inline;
+    }
+}

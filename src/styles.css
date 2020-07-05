@@ -1,0 +1,42 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@font-face {
+    font-family: "Amalfi Coast";
+    src: url("assets/fonts/AmalfiCoast.ttf");
+}
+body {
+    font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.mid {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+}
+.center-content {
+    width: 70%;
+    margin: 0 auto;
+}
+.secondcolor {
+    color: #FF8906;
+}
+
+@media screen and (max-width: 1024px) {
+/* start of large tablet styles */
+    .center-content {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+/* start of medium tablet styles */
+    .center-content {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+/* start of phone styles */
+
+}

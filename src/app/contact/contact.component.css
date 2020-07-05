@@ -1,0 +1,47 @@
+
+.contact-section {
+    background: #000000;
+}
+
+h1 {
+    margin: 0;
+    padding: 3em 0 1em;
+    line-height:1.3em;
+}
+h1 a {
+    color: #FF8906;
+}
+ul {
+    margin: 0;
+    padding: 0 0 6em;
+}
+li {
+    display: inline;
+    margin-right: 1em;
+    
+}
+path {
+    
+    fill: rgb(83, 83, 83);
+}
+path:hover {
+    fill: #FF8906;
+}
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.7em;
+    }
+    
+}
+
+@media screen and (max-width: 479px) {
+    h1 {
+        font-size: 1.3em;
+    }
+}

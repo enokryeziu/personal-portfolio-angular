@@ -1,0 +1,1 @@
+function curs(){const e=document.querySelector(".cursor");document.addEventListener("mousemove",t=>{e.setAttribute("style","top: "+t.pageY+"px;left: "+t.pageX+"px;"),console.log("top: "+t.pageY+"px;left: "+t.pageX+"px;")})}

@@ -1,0 +1,63 @@
+<div class="mid project-section">
+    <div class="center-content">
+        <h3>Projects</h3>
+        <table summary="This table shows how to create responsive tables using RWD-Table-Patterns' functionality" class="table table-bordered table-hover">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th data-priority="1">Description</th>
+                <th data-priority="2">Technology</th>
+                <th data-priority="3">Data</th>
+                <th data-priority="4">Link</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td *ngIf="mobile" (click)="onClickMe($event)"><span class="btnDropdown">&#9660;</span> Supply Chain Management</td>
+                <td *ngIf="!mobile">Supply Chain Management</td>
+                <td>Desktop application, which includes functionality of managing users, purchase-order processing, inventory management, generate sales report etc</td>
+                <td>Java, MSSQL</td>
+                <td>July 2018</td>
+                <td><a href="#">Github</a></td>
+              </tr>
+              <tr>
+                <td *ngIf="mobile" (click)="onClickMe($event)"><span class="btnDropdown">&#9660;</span> Web Crawler</td>
+                <td *ngIf="!mobile">Web Crawler</td>
+                <td>This application allows users to visit web sites and read their pages and other information base on the keyword and depth defined </td>
+                <td>Java</td>
+                <td>Feburary 2018</td>
+                <td><a href="#">Github</a></td>
+              </tr>
+              <tr>
+                <td *ngIf="mobile" (click)="onClickMe($event)"><span class="btnDropdown">&#9660;</span> e-Learning Moodel System</td>
+                <td *ngIf="!mobile">e-Learning Moodel System</td>
+                <td>This system has some features; managing courses, enrollment, assignments, lecture, users and roles (teacher, student or admin) </td>
+                <td>Laravel, Bootstrap</td>
+                <td>Feburary 2019</td>
+                <td><a href="#">Github</a></td>
+              </tr>
+              <tr>
+                <td *ngIf="mobile" (click)="onClickMe($event)"><span class="btnDropdown">&#9660;</span> Travelmate</td>
+                <td *ngIf="!mobile">Travelmate</td>
+                <td>Plan & manage vacation itinerary. The idea of this project was to use the micro-service architecture</td>
+                <td>Lumen, Laravel</td>
+                <td>July 2019</td>
+                <td><a href="#">Github</a></td>
+              </tr>
+              <tr>
+                <td *ngIf="mobile" (click)="onClickMe($event)"><span class="btnDropdown">&#9660;</span> Personal website</td>
+                <td *ngIf="!mobile">Personal website</td>
+                <td>This is still in early development and is not the live version of the site.</td>
+                <td>Angular</td>
+                <td>April 2020</td>
+                <td><a href="#">Github</a></td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="5" class="text-center">For more projects visit <a href="#" target="_blank">github.com/enokryeziu</a></td>
+              </tr>
+            </tfoot>
+          </table>
+    </div>
+</div>

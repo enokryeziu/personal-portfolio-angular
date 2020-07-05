@@ -1,0 +1,21 @@
+.home-section {
+    background: #000 url(src/assets/images/homebg.jpg)  no-repeat;
+}
+#legend h1 {
+    position: absolute;
+    top:50%;
+    transform:translate(0%, -50%);
+    -webkit-transform:translate(0%, -50%);
+    font-weight: bold;
+    font-size: 3em;
+}
+#legend a {
+    color: #FF8906;
+    font-size: 0.5em;
+    font-weight: 600;
+}
+@media screen and (max-width: 823px) {
+    #legend h1 {
+        font-size: 2.2em;
+    }
+  }
